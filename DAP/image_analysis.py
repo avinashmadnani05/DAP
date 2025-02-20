@@ -17,11 +17,11 @@ for index, row in df.iterrows():
             with open(file_name, "wb") as file:
                 for chunk in response.iter_content(1024):
                     file.write(chunk)
-            print(f"✅ Downloaded: {file_name}")
+            print(f"Downloaded: {file_name}")
         else:
-            print(f"❌ Failed: {image_url}")
+            print(f"Failed: {image_url}")
     except Exception as e:
-        print(f"⚠️ Error: {e}")
+        print(f"Error: {e}")
 
 
 

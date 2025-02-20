@@ -56,4 +56,4 @@ df = pd.DataFrame(meme_data)
 # Save to CSV
 df.to_csv("reddit_memes.csv", index=False)
 
-print("✅ Data saved successfully! Check 'reddit_memes.csv'.")
+print(" Data saved ")
